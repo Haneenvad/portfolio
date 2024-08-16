@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+/* Navbar */
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+    
+}
+.logo{
+    width: 200px;
+    height: auto;
+}
+.list-items{
+    display: inline;
+    margin: 0px 20px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.links:hover{
+    color:orangered;
+    text-decoration: underline;
+}
+
+/* home */
+#homeContent{
+    margin: 13% 0% 0% 8%;
+}
+#uname{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Playwrite BE VLG", cursive;
+
+}
+#lname{
+    font-family: "Playwrite BE VLG", cursive;
+    color: rgb(253, 65, 87);
+
+}
+#udetails{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.download{
+    text-decoration: none;
+    background-color: black;
+    color: azure;
+    padding: 10px;
+    border-radius: 10px;
+}
+.links:hover{
+    color: red;
+    text-decoration: underline;
+}
+.homeImages{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+.group1{
+  position: absolute;
+  height: 100%; 
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: bottom 2s, left 1s;
+    
+}
+.homeImages:hover #person{
+    bottom: 30px;
+}
+.homeImages:hover #car{
+    left: 45%;
+}
+#about{
+    margin: 13% 8% 0% ;
+
+}
+.section-head{
+    text-align: center;
+
+}
+.main_head{
+
+}
+
+.information{
+    margin-top: 20px;
+    
+}
+.info-box{
+    display: flex;
+    align-items: center;
+}
+.info-box>span{
+    margin-left: 10px;
+}
+#skills{
+    margin: 8% 8% 0% 8%;
+}
+.skill-content{
+    display: grid;
+align-items: center;
+margin-top: 20px;
+    grid-template-columns: 1fr1,1fr;
+    gap:2rem;
+}
+
+.skill{
+
+    width: 100%;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0px;
+    position: relative;
+
+}
+.base-bar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 6px;
+    position: absolute;
+    bottom:0px;
+}
+.tyre-bar{
+    width: 93%;
+    background-color: red;
+}
+.mirror-bar{
+    width: 98%;
+    background-color: red;
+}
+.door-bar{
+    width: 90%;
+    background-color: red;
+}
+.speed-bar{
+    width: 99%;
+    background-color: red;
+}
+#contacts{
+    margin: 8%;
+}
+.icon-collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+.brand{
+    color: white;
+    font-size: 20px;
+}
+.brand:hover{
+    color: white;
+
+}
+.icons:hover{
+    background-image: linear-gradient(red,yellow);
+    animation: rotate 2s;
+}
+#keyframes rotate{
+    0%{
+        transform: rotate:(30deg);;
+    }
+    20%{
+        transform: rotate:(-30deg);;
+    }
+    40%{
+        transform: rotate:(30deg);;
+    }
+    80%{
+        transform: rotate:(-30deg);;
+    }
+}
+.arrow-up{
+    float: right;
+    margin: -40px 30px 30px 0px;
+}
